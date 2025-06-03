@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ece5dd, #667eea); /* Updated gradient */
+  color: #222; /* Updated text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Chat Page */
+h2 {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #075E54; /* Updated heading color */
+  text-shadow: 1px 1px 2px #000;
+}
+
+#chat-box {
+  width: 90%;
+  max-width: 600px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  backdrop-filter: blur(8px);
+}
+
+#message {
+  width: 70%;
+  max-width: 450px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Added border for better visibility */
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #25d366; /* Updated button background color */
+  color: #fff; /* Updated button text color */
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #128c4a; /* Updated hover color */
+}
+
+/* Login Page */
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  backdrop-filter: blur(8px);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #075E54; /* Updated heading color */
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Added border for better visibility */
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 48%;
+  margin: 5px 1%;
+  background-color: #25d366; /* Updated button background color */
+  color: #fff; /* Updated button text color */
+}
