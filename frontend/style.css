@@ -1,9 +1,8 @@
-/* General Styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ece5dd, #667eea); /* Updated gradient */
-  color: #222; /* Updated text color */
+  background: linear-gradient(135deg, #ece5dd, #667eea); 
+  color: #222; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +14,7 @@ body {
 h2 {
   margin-top: 20px;
   font-size: 2em;
-  color: #075E54; /* Updated heading color */
+  color: #075E54; 
   text-shadow: 1px 1px 2px #000;
 }
 
@@ -36,7 +35,7 @@ h2 {
   width: 70%;
   max-width: 450px;
   padding: 10px;
-  border: 1px solid #ddd; /* Added border for better visibility */
+  border: 1px solid #ddd; 
   border-radius: 8px;
   margin-right: 10px;
   font-size: 16px;
@@ -45,8 +44,8 @@ h2 {
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #25d366; /* Updated button background color */
-  color: #fff; /* Updated button text color */
+  background-color: #25d366; 
+  color: #fff; 
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
@@ -54,7 +53,7 @@ button {
 }
 
 button:hover {
-  background-color: #128c4a; /* Updated hover color */
+  background-color: #128c4a; 
 }
 
 /* Login Page */
@@ -72,14 +71,14 @@ button:hover {
 .login-box h2 {
   margin-bottom: 20px;
   font-size: 1.8em;
-  color: #075E54; /* Updated heading color */
+  color: #075E54; 
 }
 
 .login-box input {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
-  border: 1px solid #ddd; /* Added border for better visibility */
+  border: 1px solid #ddd; 
   border-radius: 8px;
   font-size: 16px;
 }
@@ -87,6 +86,6 @@ button:hover {
 .login-box button {
   width: 48%;
   margin: 5px 1%;
-  background-color: #25d366; /* Updated button background color */
-  color: #fff; /* Updated button text color */
+  background-color: #25d366; 
+  color: #fff; 
 }
