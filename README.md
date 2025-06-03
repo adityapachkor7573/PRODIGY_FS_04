@@ -23,7 +23,7 @@ A real-time chat application built using Flask, Flask-SocketIO, and MongoDB. Thi
 
 1. **Clone the repository**:
    <!--
-   git clone https://github.com/yourusername/chat-app.git
+   git clone https://github.com/yourusername/chat-app.git](https://github.com/adityapachkor7573/PRODIGY_FS_04.git
    cd chat-app/backend
    -->
 
