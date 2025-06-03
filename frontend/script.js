@@ -26,7 +26,7 @@ function sendMessage() {
   }
 
   socket.emit('message', { room, username, message: msg });
-  msgInput.value = ''; // Clear input field
+  msgInput.value = ''; 
 }
 
 // Function to handle Enter key press
@@ -37,14 +37,10 @@ document.getElementById('message').addEventListener('keypress', function(event) 
   }
 });
 
-// Example function to simulate password check (for demonstration purposes)
+
 function checkPassword(password) {
   const correctPassword = "yourPassword"; // Replace with your actual password
   if (password !== correctPassword) {
     socket.emit('notification', "Password is incorrect!"); // Notify user
   }
 }
-
-// Example usage of checkPassword function
-// You can call this function when a user attempts to log in
-// checkPassword(userInputPassword);
