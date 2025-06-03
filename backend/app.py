@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
-# --- Auth Routes ---
+# --- Authantication Routes ---
 @app.route('/register', methods=['POST'])
 def register():
     data = request.json
@@ -46,5 +46,7 @@ def handle_message(data):
     save_message(room, message)  # Save to DB if needed
     emit('message', message, to=room)
 
+
+# --- Main ---
 if __name__ == '__main__':
     socketio.run(app, debug=True)
